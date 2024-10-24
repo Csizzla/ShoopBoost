@@ -1,0 +1,61 @@
+
+h1#heading1 {
+   text-align: center;
+    color: aqua;
+
+}
+p.paragraph{
+    font-family: "Bradley Hand ITC", sans-serif;
+    font-size: 18px;
+}
+#mydiivision {
+    background-color: dodgerblue;
+    padding: 30px;
+    color: white;
+}
+#test{
+    background-color: lightslategray;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+
+}
+#test img{
+    margin-right: 40px;
+    border-radius: 50%;
+}
+#main{
+    display: flex;
+
+}
+#advertisment{
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#accounting{
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#payment{
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#advertisment:hover {
+    transform: rotate3d(1,1,1,45deg);
+    cursor: pointer;
+}#accounting:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+    cursor: pointer;
+}#payment:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+    cursor: pointer;
+}
